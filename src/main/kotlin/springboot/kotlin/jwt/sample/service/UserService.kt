@@ -1,4 +1,4 @@
-package springboot.kotlin.jwt.sample.user
+package springboot.kotlin.jwt.sample.service
 
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm

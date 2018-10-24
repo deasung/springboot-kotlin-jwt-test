@@ -8,6 +8,9 @@ import org.springframework.http.ResponseEntity
 import org.springframework.security.authentication.*
 import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.web.bind.annotation.*
+import springboot.kotlin.jwt.sample.domain.User
+import springboot.kotlin.jwt.sample.repository.UserRepository
+import springboot.kotlin.jwt.sample.service.UserService
 import java.util.*
 
 @RestController

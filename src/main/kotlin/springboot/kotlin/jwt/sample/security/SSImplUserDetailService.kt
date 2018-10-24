@@ -1,6 +1,6 @@
 package springboot.kotlin.jwt.sample.security
 
-import kr.rang2ne.examples.springsecurityjwt.user.UserRepository
+import springboot.kotlin.jwt.sample.repository.UserRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.security.core.userdetails.UserDetails
 import org.springframework.security.core.userdetails.UserDetailsService

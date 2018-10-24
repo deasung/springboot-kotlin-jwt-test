@@ -1,0 +1,25 @@
+spring:
+  profiles:
+    active: local
+
+  datasource:
+    driver-class-name: org.h2.Driver
+
+  h2:
+    console:
+      enabled: true
+
+
+  jpa:
+    database-platform: H2
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+
+jwt:
+  header: Authorization
+  secret: mySecret
+  expiration: 604800

@@ -1,4 +1,4 @@
-package springboot.kotlin.jwt.sample.user
+package springboot.kotlin.jwt.sample.domain
 
 import java.util.*
 import javax.persistence.Entity
